@@ -1,0 +1,25 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: #262626;
+}
+
+ul {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+ul li {
+	list-style: none;
+	width: 40px;
+	height: 40px;
+	margin: 5px;
+	background: pink;
+	border-radius: 50%;
+	animation: animate 1.8s ease-in-out infinite;
+}
