@@ -23,3 +23,12 @@ ul li {
 	border-radius: 50%;
 	animation: animate 1.8s ease-in-out infinite;
 }
+
+@keyframes animate {
+	0%, 40%, 100% {
+		transform: scale(0.2);
+	}
+	20% {
+		transform: scale(1);
+	}
+}
